@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Receipt</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #eef2f3;
+        }
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .details {
+            margin: 20px 0;
+            font-size: 16px;
+            color: #555;
+        }
+        .details p {
+            margin: 10px 0;
+        }
+        .amount {
+            font-size: 24px;
+            color: #2c3e50;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+            padding: 10px 20px;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            background: #f0f8ff;
+            transition: background 0.3s, color 0.3s;
+        }
+        .footer a:hover {
+            background: #007bff;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Electricity Bill Receipt</h1>
+        <div class="details">
+            <p>Name: <strong>{{ name }}</strong></p>
+            <p>Unique Service Number: <strong>{{ service_number }}</strong></p>
+            <p>Bill Number: <strong>123456789</strong></p>
+            <p>Billing Date: <strong>06 January 2025</strong></p>
+            <p>Due Date: <strong>20 January 2025</strong></p>
+            <p class="amount">Amount to Pay: ₹<strong>{{ prediction }}</strong></p>
+        </div>
+        <div class="footer">
+            <a href="/">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
