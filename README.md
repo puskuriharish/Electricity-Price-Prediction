@@ -32,3 +32,16 @@ templates/: HTML files for the web interface
 models/: Machine learning models and preprocessing scripts
 
 requirements.txt: List of dependencies
+
+# Machine Learning Models
+## Linear Regression: 
+ Predicts prices based on a linear relationship between features and target
+
+## SVM (Support Vector Machine): 
+ Utilizes a hyperplane for prediction
+
+## KNN (K-Nearest Neighbors): 
+ Predicts based on the nearest neighbors in the dataset
+
+## Random Forest: 
+ An ensemble learning model for better accuracy
