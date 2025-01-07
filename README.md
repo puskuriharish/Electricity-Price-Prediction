@@ -23,3 +23,10 @@ pandas
 numpy
 
 Render account (optional, for deployment)
+
+# Project Structure
+app.py: Main application logic
+templates/: HTML files for the web interface
+static/: CSS and JavaScript files for styling
+models/: Machine learning models and preprocessing scripts
+requirements.txt: List of dependencies
