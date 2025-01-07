@@ -35,6 +35,9 @@ requirements.txt: List of dependencies
 
 # Machine Learning Models
 Linear Regression
+
 SVM (Support Vector Machine)
+
 KNN (K-Nearest Neighbors)
+
 Random Forest
