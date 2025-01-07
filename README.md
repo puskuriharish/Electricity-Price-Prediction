@@ -11,9 +11,15 @@ Access the live application here: https://electricity-price-prediction.onrender.
 
 Getting Started
 Prerequisites
+
 Python 3.x
+
 Flask
+
 scikit-learn
+
 pandas
+
 numpy
+
 Render account (optional, for deployment)
