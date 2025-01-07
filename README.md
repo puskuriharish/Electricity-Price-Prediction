@@ -1,4 +1,4 @@
-## Electricity Price Prediction
+# Electricity Price Prediction
 This project predicts electricity prices using machine learning models, including Linear Regression, SVM, KNN, and Random Forest. The application features a user-friendly interface built with Flask and a backend for accurate predictions.
 
 Features
