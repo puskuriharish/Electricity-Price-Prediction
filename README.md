@@ -45,13 +45,13 @@ Random Forest
 Results
 The performance of the models is evaluated using the following metrics:
 
-# Model Performance Summary:
-        Model               R² Score        MAE        RMSE
-   Linear Regression               0.999999   0.077733    0.097529
-  
-   Support Vector Machine          0.243788  89.705079  112.951964
-                
-   K-Nearest Neighbors             0.779010  48.860734   61.060169
-                
-   Random Forest                   0.844599  40.177080   51.203449
+## Model Performance Summary  
+
+| Model                    | R² Score   | MAE         | RMSE        |  
+|--------------------------|------------|-------------|-------------|  
+| **Linear Regression**    | 0.999999   | 0.077733    | 0.097529    |  
+| **Support Vector Machine** | 0.243788   | 89.705079   | 112.951964  |  
+| **K-Nearest Neighbors**  | 0.779010   | 48.860734   | 61.060169   |  
+| **Random Forest**        | 0.844599   | 40.177080   | 51.203449   |  
+
 
