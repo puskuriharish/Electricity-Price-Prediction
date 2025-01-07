@@ -7,7 +7,7 @@ Web Interface: Developed with Flask to input data and display predictions
 Interactive Form: Users can input features via an HTML form with 13 fields
 Deployment: Hosted on Render
 Demo
-Access the live application here: Electricity Price Prediction App
+Access the live application here: https://electricity-price-prediction.onrender.com/
 
 Getting Started
 Prerequisites
